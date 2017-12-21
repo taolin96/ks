@@ -46,7 +46,7 @@ bootloader --location=mbr --append="rhgb quiet crashkernel=auto" --boot-drive=sd
 
 # Run the Setup Agent on first boot
 firstboot --enable
-eula --agreed
+reboot
 
 # Network information
 #network  --bootproto=dhcp --device=enp0s3 --onboot=off --ipv6=auto --no-activate
